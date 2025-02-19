@@ -1,3 +1,5 @@
+reference link : https://www.w3schools.com/django/index.php
+
 cd django
 python3 -m venv myworld
 source myworld/bin/activate
@@ -56,4 +58,29 @@ x.phone = 5551234
 x.joined_date = '2022-01-05'
 x.save()
 Member.objects.all().values()
+exit()
+
+
+To run server 
+reach upto django folder  , then activate venv ,then go upto my_tennis_club folder  then runserver 
+cd ..
+cd ..
+source myworld/bin/activate
+cd myworld
+cd my_tennis_club
+python3 manage.py runserver
+
+http://127.0.0.1:8000/
+http://127.0.0.1:8000/members/
+http://127.0.0.1:8000/members/details/1
+http://127.0.0.1:8000/testing/
+http://127.0.0.1:8000/admin/
+
+
+python3 manage.py createsuperuser
+username: superadmin
+email: superadmin@gmail.com
+password: 123
+
+http://127.0.0.1:8000/admin/
 
