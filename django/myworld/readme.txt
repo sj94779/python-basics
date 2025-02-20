@@ -89,3 +89,7 @@ pip3 install whitenoise
 python3 manage.py collectstatic
 
 http://127.0.0.1:8000/testing/
+
+
+pip3 install psycopg2-binary
+
