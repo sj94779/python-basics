@@ -84,3 +84,8 @@ password: 123
 
 http://127.0.0.1:8000/admin/
 
+Debug = False
+pip3 install whitenoise
+python3 manage.py collectstatic
+
+http://127.0.0.1:8000/testing/
